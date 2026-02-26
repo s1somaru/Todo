@@ -1,0 +1,25 @@
+# --- Python関連 ---
+# 仮想環境ディレクトリ（これが一番大事！）
+venv/
+.venv/
+env/
+
+# コンパイル済みファイル
+__pycache__/
+*.pyc
+
+# --- OS・エディタ関連 ---
+# Windowsのシステムファイル
+Thumbs.db
+desktop.ini
+
+# VS Codeの設定フォルダ（個人設定を含まない場合）
+.vscode/
+
+# --- アプリケーション・DB関連 ---
+# SQLiteなどのローカルデータベースファイル（本番用と分ける場合）
+*.sqlite3
+instance/
+
+# 環境変数などの秘匿情報
+.env
